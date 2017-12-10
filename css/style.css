@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: salmon;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
 }
 
 nav {
@@ -13,10 +15,6 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.large-pic {
-  width: 100%;
 }
 
 .medium-pic {
@@ -37,6 +35,14 @@ ul {
   float: right;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
 li {
   float: right;
   padding: 30px;
@@ -49,4 +55,33 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+figcaption {
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+.large-pic {
+  width: 100%;
 }
